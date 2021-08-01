@@ -6,4 +6,4 @@ Each city is made of an interal network who hosts three vlans {Employees, Guests
 Each city is also made of two datacenter clients which are on external networks who connect to ours via BGP(external routing protocal).
 The rest of the topology learns new routes via EIGRP (internal routing protocal)
 Everything is sprinkled with other sophiscated networking options such as DHCP, ACLs, Firewalls, & an ISP.
-This goal of this network is to have the traffic be fast, redundant, and only restricted to only autherized access.
+This goal of this network is to have the traffic fast, redundant, and restricted to only autherized access.
